@@ -16,7 +16,7 @@ Install ShortIdFactory with Nuget
 ## Usage
 
 ```javascript
-var shortId = new ShortId(characterCount: 11); // _6ulErifjS0
+var shortId = new ShortId(characterCount: 11).Generate(); // _6ulErifjS0
 ```
 
 
