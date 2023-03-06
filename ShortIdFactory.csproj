@@ -4,11 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Karim Fahmy</Authors>
-	<description>A library that generates uninque random identifiers by set characters length. Identifiers generated can be used as primary keys for databases or unique identifiers.</description>
+	<description>A library that generates unique random identifiers by set characters length. Identifiers generated can be used as primary keys for databases and unique identifiers.</description>
 	<tags>ShortId id key database identifier sql </tags>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<RepositoryUrl>https://github.com/realkarimfahmy/ShortIdFactory.git</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
